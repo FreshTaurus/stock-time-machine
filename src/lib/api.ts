@@ -1,8 +1,9 @@
 import axios from 'axios'
 import { HistoricalStockData, NewsArticle, SearchResult, StockData } from '@/types'
 
-const ALPHA_VANTAGE_API_KEY = process.env.ALPHA_VANTAGE_API_KEY
-const NEWS_API_KEY = process.env.NEWS_API_KEY
+// Using free APIs - no API keys required
+const ALPHA_VANTAGE_API_KEY = process.env.ALPHA_VANTAGE_API_KEY || 'demo'
+const NEWS_API_KEY = process.env.NEWS_API_KEY || 'demo'
 
 // Rate limiting for Alpha Vantage API (5 calls per minute)
 class RateLimiter {
