@@ -53,57 +53,6 @@ export function TradingSimulator() {
 
   return (
     <div className="space-y-6">
-      {/* Portfolio Summary */}
-      <div className="card">
-        <div className="flex items-center gap-2 mb-4">
-          <PieChart className="h-5 w-5 text-primary-600" />
-          <h3 className="text-lg font-semibold">Portfolio Summary</h3>
-        </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
-            <div className="flex items-center gap-2 mb-2">
-              <DollarSign className="h-4 w-4 text-gray-600 dark:text-gray-400" />
-              <span className="text-sm font-medium text-gray-600 dark:text-gray-400">Total Value</span>
-            </div>
-            <div className="text-2xl font-bold text-gray-900 dark:text-gray-100">
-              {formatCurrency(state.portfolio.totalValue)}
-            </div>
-          </div>
-          
-          <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4">
-            <div className="flex items-center gap-2 mb-2">
-              <DollarSign className="h-4 w-4 text-gray-600 dark:text-gray-400" />
-              <span className="text-sm font-medium text-gray-600 dark:text-gray-400">Cash</span>
-            </div>
-            <div className="text-2xl font-bold text-gray-900 dark:text-gray-100">
-              {formatCurrency(state.portfolio.cash)}
-            </div>
-          </div>
-          
-          <div className={`rounded-lg p-4 ${
-            state.portfolio.totalPnL >= 0 
-              ? 'bg-success-50 dark:bg-success-900/20' 
-              : 'bg-danger-50 dark:bg-danger-900/20'
-          }`}>
-            <div className="flex items-center gap-2 mb-2">
-              {state.portfolio.totalPnL >= 0 ? (
-                <TrendingUp className="h-4 w-4 text-success-600 dark:text-success-400" />
-              ) : (
-                <TrendingDown className="h-4 w-4 text-danger-600 dark:text-danger-400" />
-              )}
-              <span className="text-sm font-medium text-gray-600 dark:text-gray-400">P&L</span>
-            </div>
-            <div className={`text-2xl font-bold ${
-              state.portfolio.totalPnL >= 0 
-                ? 'text-success-600 dark:text-success-400' 
-                : 'text-danger-600 dark:text-danger-400'
-            }`}>
-              {formatCurrency(state.portfolio.totalPnL)}
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Trading Form */}
       <div className="card">
