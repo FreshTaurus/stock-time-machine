@@ -1,24 +1,31 @@
-# Stock Time Machine 🕰️📈
+# 🕰️ Stock Time Machine
 
-A powerful web application that allows users to travel back in time and explore historical stock data, news, and simulate "what if" trades from any point in history.
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## Features
+> **A powerful web application that allows users to travel back in time and explore historical stock data, news, and simulate "what if" trades from any point in history.**
+
+## ✨ Features
 
 ### 🎯 Core Functionality
-- **Time Travel**: Jump to any historical date and time to explore stock data
-- **Stock Explorer**: Interactive charts and historical price data
-- **News Integration**: View relevant news and events from any historical date
-- **Trading Simulator**: Simulate trades and track portfolio performance
-- **Real-time Data**: Integration with Alpha Vantage and News API
+- **⏰ Time Travel**: Jump to any historical date and time to explore stock data
+- **📊 Stock Explorer**: Interactive charts and historical price data
+- **📰 News Integration**: View relevant news and events from any historical date
+- **💰 Trading Simulator**: Simulate trades and track portfolio performance
+- **📈 Real-time Data**: Live stock prices with multiple free APIs
 
 ### 🚀 Key Features
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
-- **Modern UI**: Built with Tailwind CSS and Framer Motion
-- **Type Safety**: Full TypeScript implementation
-- **Testing**: Comprehensive test suite with Jest and Cypress
-- **Performance**: Optimized for fast loading and smooth interactions
+- **🌙 Dark Mode**: Complete dark/light theme support
+- **📱 Responsive Design**: Works seamlessly on desktop, tablet, and mobile
+- **🎨 Modern UI**: Built with Tailwind CSS and Framer Motion
+- **🔒 Type Safety**: Full TypeScript implementation
+- **🧪 Testing**: Comprehensive test suite with Jest and Cypress
+- **⚡ Performance**: Optimized for fast loading and smooth interactions
+- **🆓 Free APIs**: No API keys required for basic functionality
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
@@ -26,7 +33,7 @@ A powerful web application that allows users to travel back in time and explore 
 - **Charts**: Recharts
 - **Animations**: Framer Motion
 - **Testing**: Jest, React Testing Library, Cypress
-- **APIs**: Alpha Vantage, News API
+- **APIs**: Yahoo Finance, Finnhub, IEX Cloud, Alpha Vantage, Polygon.io
 
 ## Getting Started
 
