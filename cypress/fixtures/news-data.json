@@ -1,0 +1,24 @@
+{
+  "articles": [
+    {
+      "title": "Apple Stock Rises on Strong Earnings Report",
+      "description": "Apple Inc. reported better-than-expected quarterly earnings, driving the stock price higher in after-hours trading.",
+      "url": "https://example.com/apple-earnings",
+      "publishedAt": "2023-01-01T10:00:00Z",
+      "source": {
+        "name": "Reuters"
+      },
+      "urlToImage": "https://example.com/apple-image.jpg"
+    },
+    {
+      "title": "Tech Stocks Rally as Market Opens",
+      "description": "Technology stocks led the market higher as investors showed renewed confidence in the sector.",
+      "url": "https://example.com/tech-rally",
+      "publishedAt": "2023-01-01T09:30:00Z",
+      "source": {
+        "name": "Bloomberg"
+      },
+      "urlToImage": "https://example.com/tech-image.jpg"
+    }
+  ]
+}
